@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import Header from "./Header";
 import Home from "./Home";
 import Product from "./Product";
 import "./App.css";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route , Switch } from "react-router-dom";
 
 function App() {
   return (

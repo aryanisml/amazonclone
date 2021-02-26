@@ -10,8 +10,7 @@ const reducer = (state = initalState, action) => {
         basket: action.payload,
       };
     case "REMOVE_FROM_BASKET":
-        return 
-      break;
+        return state;
     default:
       return state;
   }

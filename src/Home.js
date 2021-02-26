@@ -1,5 +1,5 @@
 import "./Home.css";
-import Product from "./Product";
+// import Product from "./Product";
 import useProdcts from "./useProducts";
 
 const Home = () => {

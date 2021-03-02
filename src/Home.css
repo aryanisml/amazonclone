@@ -19,11 +19,8 @@
     margin-right: 5px;
     width: fit-content;
 }
-/* .home__productrows{
-    display: flex;
-    flex-direction: row;
-     width:100%;
-     height: fit-content;
-     align-items: center;
-     flex-wrap:wrap ;
-} */
+.home__productrows{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

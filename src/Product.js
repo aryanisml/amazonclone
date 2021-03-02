@@ -16,7 +16,7 @@ const Product = ({  name, image , regularPrice }) => {
             <strong>{regularPrice}</strong>
           </div>
         </div>
-        <img src={image} />
+        <img src={image} alt={name}/>
         <button>Add to Basket</button>
       </div>
     </>

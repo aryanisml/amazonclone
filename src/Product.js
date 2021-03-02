@@ -1,6 +1,6 @@
 import React from "react";
 import "./Product.css";
-const Product = ({ id, name, image, description, regularPrice }) => {
+const Product = ({  name, image , regularPrice }) => {
   return (
     <>
       {/* {Array(5)

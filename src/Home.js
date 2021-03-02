@@ -15,20 +15,20 @@ const Home = () => {
             alt=""
           />
           <div className="home__productrows">
-          {productList &&
-            productList.map((value, index) => (
-              <div className="home__row">
-                <Product
-                  id={value.sku}
-                  name={value.name}
-                  image={value.image}
-                  description={value.longDescription}
-                  key={value.sku}
-                  regularPrice={value.regularPrice}
-                />
-              </div>
-            ))}
-            </div>
+            {productList &&
+              productList.map((value, index) => (
+                <div className="home__row">
+                  <Product
+                    id={value.sku}
+                    name={value.albumTitle}
+                    image={value.image}
+                    description={value.longDescription}
+                    key={value.sku}
+                    regularPrice={value.regularPrice}
+                  />
+                </div>
+              ))}
+          </div>
         </div>
       </div>
     </>

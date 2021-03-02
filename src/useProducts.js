@@ -16,12 +16,11 @@ const useProducts = () => {
       const params = {
           apiKey : 'itDA4GN4tXHqxpGYhZxu9wxj'
       }
-      const result = await axios.post(
-        `https://bestbuyraygorodskijv1.p.rapidapi.com/getAllCategories`,
-        params, { headers: headers }
+      const result = await axios.get(
+        `https://api.bestbuy.com/v1/products((categoryPath.id=pcmcat209400050001))?apiKey=itDA4GN4tXHqxpGYhZxu9wxj&format=json`
       );
       const productResult = result.data;
-      setProductList(productResult);
+      setProductList(productResult.products);
     };
 
     getProducts();
